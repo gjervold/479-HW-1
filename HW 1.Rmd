@@ -12,8 +12,15 @@ library(readr)
 
 ## Bridge Data
 
-```{r cars}
+```{r}
 bridge <- read_csv("MN20.txt")
 bridge
+```
+
+## UW Faculty Data
+
+```{r}
+faculty <- read_csv("https://guide.wisc.edu/faculty/")
+faculty
 ```
 
