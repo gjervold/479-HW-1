@@ -1,0 +1,28 @@
+---
+title: "HW 1"
+author: "Alyssa Gjervold"
+date: "9/14/2021"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+```
+
+## Bridge Data
+
+```{r}
+bridge <- read_csv("MN20.txt")
+bridge
+str(bridge)
+# some graph
+```
+
+## UW Faculty Data
+
+```{r}
+faculty <- read_csv("https://guide.wisc.edu/faculty/")
+faculty
+```
+
