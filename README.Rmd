@@ -8,21 +8,17 @@ output: github_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(readr)
+library(dplyr)
 ```
 
 ## Bridge Data
 
 ```{r}
 bridge <- read_csv("MN20.txt")
-bridge
 str(bridge)
-# some graph
+
+# some variables of interest
+names(bridge)
 ```
 
-## UW Faculty Data
-
-```{r}
-faculty <- read_csv("https://guide.wisc.edu/faculty/")
-faculty
-```
 
