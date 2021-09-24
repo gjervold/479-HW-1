@@ -22,7 +22,6 @@ str(bridge)
 # structure number, county code, place code, detour length, year built, avg daily traffic, condition ratings
 names(bridge)
 (bridge.subset <- bridge[,c(2,9,10,22,27,121)])
-
 ```
 
 
